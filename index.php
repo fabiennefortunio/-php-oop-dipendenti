@@ -1,11 +1,16 @@
 <?php
 
 /*classi per gestire i dipendenti di un'azienda.
-Lascio a voi le scelte architetturali, domani le valutiamo insieme :sonrojo:
-// Provate a metterci dentro la gestione di un'eccezione, ad esempio in una funzione che calcola lo stipendio*/
+Lascio a voi le scelte architetturali, domani le valutiamo insieme 
+Provate a metterci dentro la gestione di un'eccezione, ad esempio in una funzione che calcola lo stipendio*/
 
+
+
+//here i include the class staff:
 include_once "staff.php";
 
+
+//OBJECT LUCA:
 $staff1 = new Staff();
 // assegno i valori alle variabili d'istanza
 $staff1->id = 1;
@@ -18,6 +23,8 @@ var_dump($staff1);
 echo '<pre>';
 
 
+
+// OBJECT MARIA:
 $staff2 = new Staff();
 // assegno i valori alle variabili d'istanza
 $staff2->id = 2;
@@ -28,6 +35,8 @@ $staff2->address= 'via cipro';
 var_dump($staff2);
 
 
+
+//OBJECT MARCO:
 $staff3 = new Staff();
 // assegno i valori alle variabili d'istanza
 $staff3->id = 3;
