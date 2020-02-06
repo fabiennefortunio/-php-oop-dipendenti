@@ -6,6 +6,7 @@ class staff {
     public $name;
     public $email;
     public $address;
+    private $telephone;
 
 
 
